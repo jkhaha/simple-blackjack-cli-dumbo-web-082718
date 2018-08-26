@@ -6,6 +6,7 @@ end
 def deal_card
   # code #deal_card here random between 1 and 11
   new_card = rand(1.11)
+  return new_card
 end
 
 def display_card_total(card_total)
@@ -14,7 +15,7 @@ def display_card_total(card_total)
 end
 
 def prompt_user
-  puts "Type 'h' to hit or 's' to stay".
+  puts "Type 'h' to hit or 's' to stay"
   # code #prompt_user here
 end
 
