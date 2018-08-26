@@ -5,7 +5,7 @@ end
 
 def deal_card
   # code #deal_card here random between 1 and 11
-  new_card = rand(1.11)
+  new_card = rand(1..11)
   return new_card
 end
 
